@@ -1,0 +1,1 @@
+let show=!0;const menuContent=document.querySelector(".content"),menutoggle=menuContent.querySelector(".menu-toggle");menutoggle.addEventListener("click",()=>{menuContent.classList.toggle("on",show),show=!show});
